@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌤 Smart Weather Report</h1>
+
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Search</button>
+        <button onclick="getLocationWeather()">Use My Location</button>
+    </div>
+
+    <div id="currentWeather"></div>
+    <div id="hourlyForecast"></div>
+    <div id="extraInfo"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
